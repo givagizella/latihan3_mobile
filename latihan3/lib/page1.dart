@@ -7,7 +7,7 @@ class page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(child: Text('data'),
+        child: ElevatedButton(child: Text('pindah ke halaman 2'),
           onPressed: () {
             Navigator.pushNamed(context, '/page2');
             },
